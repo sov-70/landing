@@ -43,7 +43,7 @@ h1 {
 
 .text_right {
   float: right;
-  width: 50%;
+  width: 48%;
 }
 .text_left {
   float: left;
@@ -54,11 +54,16 @@ h1 {
   float: right;
   width: 25%;
 }
-
+.logo {
+  float: left;
+  width: 100px;	
+}
 
 .header-nav-item {
   display: inline-block;
   padding: 0 30px;
+  width: 100px;	
+  float: left;
 }
 
 .header-nav-link:hover {
@@ -67,7 +72,7 @@ h1 {
   transition: all ease .3s;
 }
 .margin_top {
-  margin-top: 210px;		
+  margin-top: 150px;		
 }	
 
 .intro {
@@ -85,8 +90,7 @@ h1 {
 }
 
 .cite {
-  margin: 1.5em 0;
-  padding: 0.5em 25px;
+  padding: 0.5em;
   line-height: 1.5;
   border-radius: 10px;
   border: 5px solid #3498db;
@@ -117,6 +121,9 @@ h1 {
   font-size: 30px;
   margin-top: 2px;
   margin-bottom: 2px; 
+}
+.top_logo {
+  font-size: 10px;	
 }
 }
 
